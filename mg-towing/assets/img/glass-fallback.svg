@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" role="img" aria-label="Illustration of a vehicle windshield">
+  <defs>
+    <linearGradient id="glassA" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#9dc4ea" stop-opacity="0.85"/>
+      <stop offset="0.45" stop-color="#2a4560" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0a121b"/>
+    </linearGradient>
+    <linearGradient id="edgeA" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#5f9bd6"/>
+      <stop offset="1" stop-color="#1b3a5c"/>
+    </linearGradient>
+    <linearGradient id="sweepA" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sealA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2f38"/>
+      <stop offset="1" stop-color="#0b0d11"/>
+    </linearGradient>
+    <radialGradient id="glowE" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3d8fd6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#3d8fd6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="280" cy="250" rx="240" ry="180" fill="url(#glowE)"/>
+
+  <!-- A-pillar seal -->
+  <path d="M92 118 L468 118 L428 372 L132 372 Z" fill="url(#sealA)"/>
+
+  <!-- laminate edge / glass edge glow -->
+  <path d="M104 128 L456 128 L418 360 L142 360 Z" fill="#3f8fd0" opacity="0.55"/>
+
+  <!-- glass -->
+  <path d="M112 137 L448 137 L411 351 L149 351 Z" fill="url(#glassA)"/>
+
+  <!-- interior hint -->
+  <path d="M180 337 L386 337 L404 190 L188 190 Z" fill="#0c141d" opacity="0.55"/>
+
+  <!-- reflection sweep -->
+  <path d="M232 137 L304 137 L262 351 L200 351 Z" fill="url(#sweepA)" opacity="0.75"/>
+  <path d="M336 137 L386 137 L344 351 L296 351 Z" fill="url(#sweepA)" opacity="0.4"/>
+
+  <!-- wiper arcs -->
+  <path d="M160 344 q70 -46 148 -30" fill="none" stroke="#8d97a6" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M196 348 q76 -52 168 -34" fill="none" stroke="#6c7684" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- top highlight -->
+  <path d="M120 145 L442 145 L438 158 L124 158 Z" fill="#ffffff" opacity="0.2"/>
+</svg>

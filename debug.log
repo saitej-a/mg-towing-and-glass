@@ -1,0 +1,44 @@
+[2026-09-20T02:50:10.369Z] [bootHero] node found: true
+[2026-09-20T02:50:10.436Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T02:50:10.437Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T02:50:10.460Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T02:50:10.464Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T02:50:10.467Z] [bootHero] GLTFLoader loaded! Fetching tow_truck.glb...
+[2026-09-20T02:50:10.470Z] [bootHero] Root tow_truck.glb failed: fetch for "http://localhost:8742/tow_truck.glb" responded with 404: Not Found. Trying assets/models/tow-truck.glb...
+[2026-09-20T02:50:10.838Z] [bootHero] assets/models/tow-truck.glb loaded successfully! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T02:50:14.468Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T02:50:14.588Z] [bootHero] node found: true
+[2026-09-20T02:50:14.662Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T02:50:14.663Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T02:50:14.672Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T02:50:14.673Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T02:50:14.685Z] [bootHero] GLTFLoader loaded! Fetching tow_truck.glb...
+[2026-09-20T02:50:14.686Z] [bootHero] Root tow_truck.glb failed: fetch for "http://localhost:8742/tow_truck.glb" responded with 404: Not Found. Trying assets/models/tow-truck.glb...
+[2026-09-20T02:50:14.877Z] [bootHero] assets/models/tow-truck.glb loaded successfully! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T02:50:15.515Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T02:50:30.370Z] [resizeStage] container: stage-canvas w:1 h:260
+[2026-09-20T02:50:30.376Z] [resizeStage] container: stage-canvas w:1 h:340
+[2026-09-20T02:50:30.380Z] [resizeStage] container: stage-canvas w:1 h:260
+[2026-09-20T02:50:30.381Z] [resizeStage] container: stage-canvas w:1 h:340
+[2026-09-20T02:50:30.396Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:50:30.398Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:50:30.402Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:50:30.403Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:50:40.214Z] [bootHero] node found: true
+[2026-09-20T02:50:40.333Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:50:40.334Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T02:50:40.360Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:50:40.372Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:50:40.381Z] [bootHero] GLTFLoader loaded! Fetching tow_truck.glb...
+[2026-09-20T02:50:40.386Z] [bootHero] Root tow_truck.glb failed: fetch for "http://localhost:8742/tow_truck.glb" responded with 404: Not Found. Trying assets/models/tow-truck.glb...
+[2026-09-20T02:50:40.685Z] [bootHero] assets/models/tow-truck.glb loaded successfully! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T02:50:41.360Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:51:37.782Z] [bootHero] node found: true
+[2026-09-20T02:51:37.850Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:51:37.851Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T02:51:37.872Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:51:37.881Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:51:37.888Z] [bootHero] GLTFLoader loaded! Fetching tow_truck.glb...
+[2026-09-20T02:51:37.891Z] [bootHero] Root tow_truck.glb failed: fetch for "http://localhost:8742/tow_truck.glb" responded with 404: Not Found. Trying assets/models/tow-truck.glb...
+[2026-09-20T02:51:38.240Z] [bootHero] assets/models/tow-truck.glb loaded successfully! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T02:51:38.984Z] [resizeStage] container: stage-canvas w:345 h:340

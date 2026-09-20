@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-label="Illustration of MG Towing professional recovery tow truck">
+  <defs>
+    <linearGradient id="bodyG" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.55" stop-color="#d9e0ea"/>
+      <stop offset="1" stop-color="#949eaf"/>
+    </linearGradient>
+    <linearGradient id="darkG" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#242934"/>
+      <stop offset="1" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="glassG" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#4d6b8f" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#16202e" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0a0f16"/>
+    </linearGradient>
+    <linearGradient id="deckG" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#9aa2ae"/>
+      <stop offset="0.5" stop-color="#6d7684"/>
+      <stop offset="1" stop-color="#414852"/>
+    </linearGradient>
+    <radialGradient id="glowG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2d20" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ff2d20" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floorG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="glowBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <style>
+      @keyframes beaconFlashL {
+        0%, 48% { opacity: 1; }
+        50%, 98% { opacity: 0.2; }
+      }
+      @keyframes beaconFlashR {
+        0%, 48% { opacity: 0.2; }
+        50%, 98% { opacity: 1; }
+      }
+      @keyframes groundGlowPulse {
+        0%, 100% { opacity: 0.65; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes headlightBeamPulse {
+        0%, 100% { opacity: 0.25; }
+        50% { opacity: 0.12; }
+      }
+      @keyframes lightSweepAcross {
+        0% { opacity: 0; transform: translateX(-35px); }
+        35%, 65% { opacity: 0.25; }
+        100% { opacity: 0; transform: translateX(35px); }
+      }
+      .beacon-l { animation: beaconFlashL 0.75s steps(1, end) infinite; }
+      .beacon-r { animation: beaconFlashR 0.75s steps(1, end) infinite; }
+      .ground-glow { animation: groundGlowPulse 1.8s ease-in-out infinite; }
+      .headlight-glow { animation: headlightBeamPulse 2.4s ease-in-out infinite; }
+      .body-sweep { animation: lightSweepAcross 4.2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- ground shadow + red light pool -->
+  <ellipse cx="320" cy="432" rx="248" ry="52" fill="url(#floorG)" filter="url(#soft)"/>
+  <ellipse class="ground-glow" cx="320" cy="424" rx="200" ry="44" fill="url(#glowG)" opacity="0.6"/>
+
+  <g>
+    <!-- chassis -->
+    <rect x="146" y="352" width="352" height="42" rx="10" fill="url(#darkG)"/>
+
+    <!-- cab -->
+    <rect x="158" y="222" width="168" height="122" rx="16" fill="url(#bodyG)"/>
+    <rect x="158" y="318" width="172" height="42" rx="9" fill="url(#darkG)" opacity="0.92"/>
+
+    <!-- windscreen -->
+    <path d="M292 240 L318 240 L318 300 L292 300 Z" fill="url(#glassG)"/>
+    <rect x="300" y="238" width="14" height="64" rx="6" fill="url(#glassG)"/>
+
+    <!-- side window -->
+    <rect x="182" y="248" width="96" height="46" rx="8" fill="url(#glassG)"/>
+
+    <!-- door handle & MG TOWING branding -->
+    <rect x="254" y="302" width="16" height="4" rx="2" fill="#22262f"/>
+    <text x="214" y="314" fill="#0f141d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="9" letter-spacing="1">MG TOWING</text>
+    <rect x="184" y="320" width="38" height="11" rx="3" fill="#ff2d20"/>
+    <text x="203" y="328" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="7" text-anchor="middle">24/7 RSA</text>
+
+    <!-- grille + bumper -->
+    <rect x="140" y="266" width="24" height="46" rx="6" fill="url(#darkG)"/>
+    <rect x="132" y="312" width="44" height="20" rx="7" fill="#b9c0cc"/>
+
+    <!-- headlight -->
+    <rect x="146" y="272" width="16" height="30" rx="5" fill="#fff3d9"/>
+    <ellipse class="headlight-glow" cx="150" cy="287" rx="42" ry="26" fill="#fff0d0" opacity="0.22" filter="url(#soft)"/>
+
+    <!-- mirrors -->
+    <rect x="140" y="238" width="20" height="9" rx="3" fill="#0d1015"/>
+    <rect x="128" y="228" width="12" height="28" rx="4" fill="#0d1015"/>
+
+    <!-- exhaust stack -->
+    <rect x="318" y="196" width="15" height="70" rx="5" fill="#c9ced9"/>
+
+    <!-- flatbed deck -->
+    <rect x="330" y="316" width="196" height="22" rx="7" fill="url(#deckG)"/>
+    <rect x="330" y="300" width="12" height="20" rx="4" fill="#c9ced9"/>
+    <rect x="514" y="300" width="12" height="20" rx="4" fill="#c9ced9"/>
+
+    <!-- rear ramp -->
+    <path d="M520 340 L606 392 L606 408 L520 362 Z" fill="url(#deckG)"/>
+
+    <!-- boom -->
+    <path d="M356 288 L430 246 L446 268 L374 314 Z" fill="url(#bodyG)"/>
+    <circle cx="352" cy="308" r="20" fill="#171b22"/>
+
+    <!-- winch cable + tow hook -->
+    <line x1="440" y1="262" x2="500" y2="330" stroke="#5d6572" stroke-width="4"/>
+    <path d="M494 336 q22 14 6 34 q-12 14 -26 2" fill="none" stroke="#c9ced9" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- beacon bar -->
+    <rect x="196" y="206" width="104" height="14" rx="6" fill="#0d1015"/>
+    <rect class="beacon-l" x="204" y="190" width="40" height="18" rx="7" fill="#ff2d20"/>
+    <rect class="beacon-r" x="252" y="190" width="40" height="18" rx="7" fill="#ff2d20"/>
+    <ellipse class="beacon-l" cx="224" cy="199" rx="50" ry="32" fill="#ff2d20" opacity="0.45" filter="url(#glowBlur)"/>
+    <ellipse class="beacon-r" cx="272" cy="199" rx="50" ry="32" fill="#ff2d20" opacity="0.45" filter="url(#glowBlur)"/>
+
+    <!-- wheels -->
+    <g>
+      <circle cx="214" cy="396" r="52" fill="#0a0b0e"/>
+      <circle cx="214" cy="396" r="30" fill="#b9bfc9"/>
+      <circle cx="214" cy="396" r="12" fill="#e7ebf1"/>
+      <circle cx="442" cy="396" r="52" fill="#0a0b0e"/>
+      <circle cx="442" cy="396" r="30" fill="#b9bfc9"/>
+      <circle cx="442" cy="396" r="12" fill="#e7ebf1"/>
+      <circle cx="536" cy="396" r="52" fill="#0a0b0e"/>
+      <circle cx="536" cy="396" r="30" fill="#b9bfc9"/>
+      <circle cx="536" cy="396" r="12" fill="#e7ebf1"/>
+    </g>
+  </g>
+
+  <!-- highlight sweep across the body -->
+  <path class="body-sweep" d="M170 240 L300 246 L300 258 L170 252 Z" fill="#ffffff" opacity="0.16"/>
+</svg>
