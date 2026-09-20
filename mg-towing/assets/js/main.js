@@ -305,7 +305,7 @@ const PHONE_DISPLAY = '+91 99595 50462';
 
   if (has3d) {
     const boot = () => {
-      import('./app.js?v=4')
+      import('./app.js?v=5')
         .then((mod) => mod.initScenes())
         .catch((err) => {
           if (window.console && console.error) console.error('[MG 3D boot]', err);

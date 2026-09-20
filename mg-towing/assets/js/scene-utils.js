@@ -45,6 +45,28 @@ export async function loadThreeWithAddons() {
 }
 
 /**
+ * Computes an exact, vertex-tight bounding box in world space.
+ * Avoids Three.js Box3.setFromObject inflating boxes on rotated child nodes.
+ */
+export function computeExactBoundingBox(obj, THREE) {
+  const box = new THREE.Box3();
+  const v = new THREE.Vector3();
+  obj.updateMatrixWorld(true);
+  obj.traverse((child) => {
+    if (child.isMesh && child.geometry && child.geometry.attributes && child.geometry.attributes.position) {
+      const pos = child.geometry.attributes.position;
+      for (let i = 0; i < pos.count; i++) {
+        v.fromBufferAttribute(pos, i);
+        v.applyMatrix4(child.matrixWorld);
+        box.expandByPoint(v);
+      }
+    }
+  });
+  if (box.isEmpty()) box.setFromObject(obj);
+  return box;
+}
+
+/**
  * Loads a compressed GLB and returns the parsed glTF scene root, auto-scaled
  * to a predictable height so scenes can be framed without guesswork.
  */
@@ -56,7 +78,7 @@ export function loadModel(url, THREE, loader, targetHeight = 1, onProgress = nul
         const root = gltf.scene;
 
         root.updateMatrixWorld(true);
-        const box = new THREE.Box3().setFromObject(root);
+        const box = computeExactBoundingBox(root, THREE);
         const size = new THREE.Vector3();
         box.getSize(size);
         const maxDim = Math.max(size.x, size.y, size.z) || 1;
@@ -64,16 +86,16 @@ export function loadModel(url, THREE, loader, targetHeight = 1, onProgress = nul
         root.scale.setScalar(s);
 
         root.updateMatrixWorld(true);
-        const box2 = new THREE.Box3().setFromObject(root);
+        const box2 = computeExactBoundingBox(root, THREE);
         const center = box2.getCenter(new THREE.Vector3());
 
-        // Center on X and Z, and place the lowest point on ground y = 0
+        // Center on X and Z, and place the lowest point firmly on ground y = 0
         root.position.x -= center.x;
         root.position.z -= center.z;
         root.position.y -= box2.min.y;
 
         root.updateMatrixWorld(true);
-        const finalBox = new THREE.Box3().setFromObject(root);
+        const finalBox = computeExactBoundingBox(root, THREE);
         const finalSize = new THREE.Vector3();
         finalBox.getSize(finalSize);
 

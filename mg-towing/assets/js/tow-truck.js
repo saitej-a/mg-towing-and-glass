@@ -13,14 +13,14 @@ import { radialGlowTexture, createDragController, listen } from './scene-utils.j
 
 const ROOM_ENV_URL = 'three/addons/environments/RoomEnvironment.js';
 
-/* Normalised-space anchors (truck length = 1, ground = y 0) */
+/* Normalised-space anchors (truck length = 1.15, ground = y 0) */
 const ANCHORS = {
-  headlightX: 0.09,
+  headlightX: 0.085,
   headlightY: 0.105,
-  noseZ: 0.5,
-  beaconX: 0.06,
-  beaconY: 0.285,
-  beaconZ: 0.235
+  noseZ: 0.548,
+  beaconX: 0.045,
+  beaconY: 0.300,
+  beaconZ: 0.274
 };
 
 const BASE_YAW = -0.62; // nose angled toward the headline / viewer
@@ -54,8 +54,8 @@ function buildBeaconGlows(THREE, rig) {
       depthWrite: false
     });
     const sprite = new THREE.Sprite(mat);
-    sprite.position.set(side * ANCHORS.beaconX, ANCHORS.beaconY + 0.02, ANCHORS.beaconZ);
-    sprite.scale.set(0.2, 0.2, 1);
+    sprite.position.set(side * ANCHORS.beaconX, ANCHORS.beaconY + 0.008, ANCHORS.beaconZ);
+    sprite.scale.set(0.12, 0.12, 1);
     rig.add(sprite);
     return sprite;
   });
@@ -140,12 +140,12 @@ export async function createTowTruckScene(stage, THREE, opts = {}) {
 
   /* Emergency bar illumination — pulses with the beacon glows. */
   const beaconLight = new THREE.PointLight(0xff3220, 0, 2.4, 1.8);
-  beaconLight.position.set(0, ANCHORS.beaconY + 0.08, ANCHORS.beaconZ);
+  beaconLight.position.set(0, ANCHORS.beaconY + 0.02, ANCHORS.beaconZ);
   rig.add(beaconLight);
 
   /* Headlight spill onto the ground ahead of the nose. */
   const headLight = new THREE.SpotLight(0xfff2dc, profile.tier === 'high' ? 14 : 9, 3.2, 0.5, 0.55, 1.6);
-  headLight.position.set(0, ANCHORS.headlightY, ANCHORS.noseZ + 0.05);
+  headLight.position.set(0, ANCHORS.headlightY, ANCHORS.noseZ + 0.02);
   headLight.target.position.set(0, 0, ANCHORS.noseZ + 1.1);
   rig.add(headLight);
   rig.add(headLight.target);

@@ -42,3 +42,101 @@
 [2026-09-20T02:51:37.891Z] [bootHero] Root tow_truck.glb failed: fetch for "http://localhost:8742/tow_truck.glb" responded with 404: Not Found. Trying assets/models/tow-truck.glb...
 [2026-09-20T02:51:38.240Z] [bootHero] assets/models/tow-truck.glb loaded successfully! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
 [2026-09-20T02:51:38.984Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:54:26.527Z] [bootHero] node found: true
+[2026-09-20T02:54:26.588Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:54:26.590Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T02:54:26.624Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:54:26.634Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:54:26.643Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T02:54:26.984Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T02:54:27.690Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:54:33.714Z] [bootHero] node found: true
+[2026-09-20T02:54:33.844Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T02:54:33.844Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T02:54:33.855Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:54:33.865Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T02:54:33.881Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T02:54:34.162Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T02:54:34.828Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:03:12.850Z] [bootHero] node found: true
+[2026-09-20T04:03:12.907Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:03:12.910Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T04:03:12.934Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T04:03:13.482Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T04:03:14.149Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:03:14.766Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:03:14.772Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:03:25.749Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:03:25.750Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:03:25.814Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T04:03:25.816Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T04:03:25.819Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T04:03:25.820Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T04:09:38.663Z] [resizeStage] container: stage-canvas w:1 h:340
+[2026-09-20T04:09:38.665Z] [resizeStage] container: stage-canvas w:1 h:260
+[2026-09-20T04:09:38.667Z] [resizeStage] container: stage-canvas w:1 h:340
+[2026-09-20T04:09:38.668Z] [resizeStage] container: stage-canvas w:1 h:260
+[2026-09-20T04:09:38.704Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:09:38.714Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:09:38.718Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:09:38.719Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:09:41.312Z] [bootHero] node found: true
+[2026-09-20T04:09:41.449Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:09:41.450Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T04:09:41.533Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T04:09:41.790Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:09:41.819Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:09:42.017Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T04:09:42.634Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:27:33.747Z] [bootHero] node found: true
+[2026-09-20T04:27:33.855Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:27:33.856Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T04:27:33.885Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:27:33.893Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:27:33.912Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T04:27:34.274Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T04:27:35.034Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:29:52.631Z] [bootHero] node found: true
+[2026-09-20T04:29:52.696Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:29:52.697Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T04:29:52.715Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T04:29:53.208Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.9855190561204656,"y":0.9269253875395522,"z":1.15}
+[2026-09-20T04:29:53.855Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:29:53.890Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:29:53.896Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:36:07.542Z] [bootHero] node found: true
+[2026-09-20T04:36:07.693Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:36:07.694Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T04:36:07.789Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:36:07.804Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:36:07.831Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T04:36:08.290Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.2948379898670024,"y":0.31235214880841944,"z":1.15}
+[2026-09-20T04:36:08.940Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:36:16.198Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:36:16.199Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:36:16.258Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T04:36:16.260Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T04:36:16.267Z] [resizeStage] container: stage-canvas w:478 h:392
+[2026-09-20T04:36:16.269Z] [resizeStage] container: stage-canvas w:851 h:703
+[2026-09-20T04:36:50.687Z] [resizeStage] container: stage-canvas w:535 h:396
+[2026-09-20T04:36:50.690Z] [resizeStage] container: stage-canvas w:535 h:396
+[2026-09-20T04:37:26.779Z] [resizeStage] container: stage-canvas w:1 h:260
+[2026-09-20T04:37:26.782Z] [resizeStage] container: stage-canvas w:1 h:340
+[2026-09-20T04:37:26.783Z] [resizeStage] container: stage-canvas w:1 h:300
+[2026-09-20T04:37:26.785Z] [resizeStage] container: stage-canvas w:1 h:260
+[2026-09-20T04:37:26.786Z] [resizeStage] container: stage-canvas w:1 h:340
+[2026-09-20T04:37:26.787Z] [resizeStage] container: stage-canvas w:1 h:300
+[2026-09-20T04:37:26.836Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:37:26.844Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:37:26.847Z] [resizeStage] container: stage-canvas w:345 h:300
+[2026-09-20T04:37:26.851Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:37:26.852Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:37:26.852Z] [resizeStage] container: stage-canvas w:345 h:300
+[2026-09-20T04:37:30.922Z] [bootHero] node found: true
+[2026-09-20T04:37:31.013Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:37:31.014Z] [bootHero] directMount triggered! Tier: low
+[2026-09-20T04:37:31.092Z] [bootHero] GLTFLoader loaded! Fetching assets/models/tow-truck.glb...
+[2026-09-20T04:37:31.698Z] [bootHero] assets/models/tow-truck.glb loaded directly! Size: {"x":0.2948379898670024,"y":0.31235214880841944,"z":1.15}
+[2026-09-20T04:37:32.549Z] [resizeStage] container: stage-canvas w:345 h:340
+[2026-09-20T04:37:32.674Z] [resizeStage] container: stage-canvas w:345 h:282
+[2026-09-20T04:37:32.689Z] [resizeStage] container: stage-canvas w:345 h:282
